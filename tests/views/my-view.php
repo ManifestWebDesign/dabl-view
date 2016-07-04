@@ -1,0 +1,1 @@
+<div><?= $my_param ?></div>

@@ -1,0 +1,20 @@
+{
+	"name": "dabl/generator",
+	"description": "DABL ORM code generator",
+	"license": "MIT",
+	"keywords": ["database", "abstraction", "orm", "propel", "dabl", "sql", "query"],
+	"authors": [
+		{
+			"name": "Manifest Web Design",
+			"email": "dan@manifestwebdesign.com"
+		}
+	],
+	"require-dev": {
+		"phpunit/phpunit": "4.8.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dabl\\View\\": "src"
+		}
+	}
+}
