@@ -1,6 +1,6 @@
 {
-	"name": "dabl/generator",
-	"description": "DABL ORM code generator",
+	"name": "dabl/view",
+	"description": "Simple PHP view renderer",
 	"license": "MIT",
 	"keywords": ["database", "abstraction", "orm", "propel", "dabl", "sql", "query"],
 	"authors": [
