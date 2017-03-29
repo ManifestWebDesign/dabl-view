@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ManifestWebDesign/dabl-view.svg?branch=master)](https://travis-ci.org/ManifestWebDesign/dabl-view)
+
 # Dabl View
 Simple class for rendering pure PHP views
 
