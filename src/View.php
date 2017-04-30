@@ -98,16 +98,15 @@ class View {
 			if (is_file($directory . $view_file . '.php')) {
 				$this->viewFile = $directory . $view_file . '.php';
 				return $this;
-			} elseif (is_dir($directory . $view_file)) {
-				$this->viewFile = $view_file . '/index.php';
+			} elseif (is_file($directory . $view_file . '/index.php')) {
+				$this->viewFile = $directory . $view_file . '/index.php';
 				return $this;
 			}
 		}
 
 		// raise error if file doesn't exist
 		throw new ViewNotFoundException(
-			"View '$view_file' not found in directories: "
-				. implode(', ', self::$directories)
+			"View '$view_file' not found in directories: " . implode(', ', self::$directories)
 		);
 	}
 
